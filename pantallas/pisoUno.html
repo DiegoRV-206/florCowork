@@ -1,0 +1,91 @@
+    <!--<button class="openbtn" onclick="openNav()">☰ </button>-->
+    <div id="mySidebar" class="sidebar">
+      <!--<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>-->
+      <li class="nav-item"><a class="rotado" href="#" onclick="cargarContenido('./pantallas/inicio.html')">Inicio</a></li>
+      <li class="nav-item"><a class="rotado" href="#" onclick="cargarContenido('./pantallas/servicios.html')">Servicios</a></li>
+      <li class="nav-item"><a class="rotado" href="#" onclick="cargarContenido('./pantallas/cursos.html')">Cursos</a></li>
+      <li class="nav-item"><a class="rotado" href="#" onclick="cargarContenido('./pantallas/eventos.html')">Eventos</a></li>
+      <li class="nav-item dropdown">
+        <a class="rotado nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">Pisos</a>
+        <div id="customDrop" class="dropdown-menu">
+          <a class="dropdown-item" href="#" onclick="cargarContenido('./pantallas/pisoUno.html')">Piso 1</a>
+          <a class="dropdown-item" href="#" onclick="cargarContenido('./pantallas/pisoDos.html')">Piso 2</a>
+          <a class="dropdown-item" href="#" onclick="cargarContenido('./pantallas/pisoTres.html')">Piso 3</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#" onclick="cargarContenido('./pantallas/azotea.html')">Azotea</a>
+        </div>
+      </li>
+    </div>
+    
+    
+    <div id="galeria" class="album py-5 rounded">
+        <div class="container-fluid p-0">
+          <div>
+            <h2>Piso 1</h2>
+            <p> Espacios dinámicos</p>
+          </div>
+            <!-- Imagen -->
+            <img src="/./img/1.jpg" alt="Foto" class="img-fluid mx-auto d-block">
+        
+            <!-- Texto -->
+            <div class="text-center my-4">
+              <h2>Reservá tu turno</h2>
+              <p>Completá el formulario para reservar tu horario de atención.</p>
+            </div>
+        
+            <!-- Formulario -->
+            <div class="container mt-5 mb-5">
+              <div class="form-container p-4 shadow rounded bg-light">
+                <div class="form-section">
+                  <form>
+            
+                    <!-- Primera fila: Fecha, Hora Inicio, Hora Fin -->
+                    <div class="form-row">
+                      <div class="form-group col-md-4">
+                        <label for="fecha">Fecha</label>
+                        <input type="date" class="form-control" id="fecha" required>
+                      </div>
+                      <div class="form-group col-md-4">
+                        <label for="horaInicio">Hora de inicio</label>
+                        <input type="time" class="form-control" id="horaInicio" required>
+                      </div>
+                      <div class="form-group col-md-4">
+                        <label for="horaFin">Hora de fin</label>
+                        <input type="time" class="form-control" id="horaFin" required>
+                      </div>
+                    </div>
+            
+                    <!-- Segunda fila: Select 1, Select 2, Botón -->
+                    <div class="form-row">
+                      <div class="form-group col-md-4">
+                        <label for="opcion1">Cantidad de personas</label>
+                        <select class="form-control" id="opcion1" required>
+                          <option value="">Seleccioná una opción</option>
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                        </select>
+                      </div>
+            
+                      <div class="form-group col-md-4">
+                        <label for="opcion2">Espacio</label>
+                        <select class="form-control" id="opcion2" required>
+                          <option value="">Seleccioná el espacio</option>
+                          <option>x</option>
+                          <option>y</option>
+                          <option>z</option>
+                        </select>
+                      </div>
+            
+                      <div class="form-group col-md-4 d-flex align-items-end">
+                        <button type="submit" class="btn btn-primary btn-block">Reservar</button>
+                      </div>
+                    </div>
+            
+                  </form>
+                </div>
+              </div>
+            </div>
+        
+          </div>
+    </div>
