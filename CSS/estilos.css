@@ -1,3 +1,15 @@
+body.inicio {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #9e1c20;
+}
+
+body.inicio #main {
+  padding: 0;
+  margin: 0;
+}
+
 #galeria{
     background-color: rgba(36, 36, 27, 0.879);
 }
@@ -130,9 +142,7 @@
     .sidebar a {font-size: 18px;}
 }
 @media only screen and (max-width: 450px) {
-  #main{
-    margin-left: 8% !important;
-  }
+  
   .sidebar{
     width: 9% !important;
   }
@@ -151,5 +161,33 @@
    text-align: center;
    margin: 37px 1px 40px -22px;
   }
+}
+.img-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Ocupa toda la altura de la pantalla */
+  overflow: hidden;
+}
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* Asegura que la imagen cubra todo el área sin deformarse */
+}
+
+/* Estilo para el botón */
+#btnLogin {
+  position: absolute;
+  bottom: 37%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  padding: 0px 2px;
+  right: 14%;
+  margin: 20% 20% 0% 0%;
+  width: 14%;
+  height: 5%;
+  background-color: #ff000003;
+  border-color: #11111103 !important;
 }
   
