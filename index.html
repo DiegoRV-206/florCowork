@@ -76,6 +76,14 @@
     </div>
       
       <script>
+        // Ajusta el alto real en móviles
+        function ajustarAlturaPantalla() {
+          const vh = window.innerHeight * 0.01;
+          document.documentElement.style.setProperty('--vh', `${vh}px`);
+        }
+
+        ajustarAlturaPantalla();
+        window.addEventListener('resize', ajustarAlturaPantalla);
         function openNav() {
           /*document.getElementById("mySidebar").style.width = "4%";
           document.getElementById("main").style.marginLeft = "4%";*/
