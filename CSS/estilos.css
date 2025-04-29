@@ -14,10 +14,10 @@ body.inicio #main {
     background-color: rgba(36, 36, 27, 0.879);
 }
 #galeria2{
-    background-color: #C34121;
+    background-color: #9e1c20;
 }
 #galeriaP2{
-  background-color: #C34121;
+  background-color: #9e1c20;
   margin-top: 10px;
 }
 #main {
@@ -34,7 +34,7 @@ body.inicio #main {
     padding: 0.5rem 0 !important;
     border-radius: 2.25rem !important;
     min-width: 4rem !important;
-    background-color: #C34121;
+    background-color: #9e1c20;
 }   
 .sidebar {
     height: 100%;
@@ -85,7 +85,7 @@ body.inicio #main {
    display: inline-block;
    transform: rotate(-90deg);
    padding:14px 20px;
-   background-color: #C34121;
+   background-color: #9e1c20;
    color: white;
    border-top-right-radius: 0px;
    border-bottom-right-radius: 76px;
@@ -99,14 +99,14 @@ body.inicio #main {
   }
   
   .curva {
-    border-right: 30px solid #C34121;
+    border-right: 30px solid #9e1c20;
     border-radius: 0 60px 60px 0;
     margin: 20px 0;
     padding: 10px 0;
   }
   
   .curva-inversa {
-    border-left: 30px solid #C34121;
+    border-left: 30px solid #9e1c20;
     border-radius: 60px 0 0 60px;
     margin: 20px 0;
     padding: 10px 0;
@@ -150,7 +150,7 @@ body.inicio #main {
    display: inline-block;
    transform: rotate(-90deg);
    padding:15px 14px;
-   background-color: #C34121;
+   background-color: #9e1c20;
    color: white;
    border-top-right-radius: 16px;
    border-bottom-right-radius: 76px;
