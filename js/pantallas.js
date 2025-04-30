@@ -6,7 +6,7 @@ function cargarContenido(pagina) {
     .then(respuesta => respuesta.text())
     .then(data => {
       document.getElementById('main').innerHTML = data;
-      document.getElementById("mySidebar").style.width = "4%";
+      document.getElementById("mySidebar").style.width = "6%";
       document.getElementById("main").style.marginLeft= "4%";
       document.body.classList.remove("inicio"); // Quitamos clase especial
       document.getElementById("main").style.padding = "16px"; // Restauramos el padding si lo controlás con estilos inline

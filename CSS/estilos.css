@@ -35,6 +35,8 @@ body.inicio #main {
     border-radius: 2.25rem !important;
     min-width: 4rem !important;
     background-color: #9e1c20;
+    font-size: 0.8rem !important;
+    left: -5px;
 }   
 .sidebar {
     height: 100%;
@@ -140,7 +142,7 @@ body.inicio #main {
 @media only screen and (max-width: 450px) {
   
   .sidebar{
-    width: 9% !important;
+    width: 10% !important;
   }
   a.rotado {
    display: inline-block;
