@@ -22,7 +22,7 @@ body.inicio #main {
 }
 #main {
     transition: margin-left 0.5s;
-    padding: 16px; /* opcional, ajustalo si querés espacio interno */
+    /*padding: 16px; /* opcional, ajustalo si querés espacio interno */
   }
 #customDrop{
     transform: translate3d(-16px, -283px, 0px) !important; 
@@ -57,19 +57,12 @@ body.inicio #main {
     list-style: none;
   }
   .sidebar a {
-    /*
-    padding: 8px 8px 8px 20px;
     text-decoration: none;
-    font-size: 65%;
-    color: #818181;
+    font-size: 90%;
+    color: #f1eeee;
     display: block;
-    transition: 0.3s;*/
-    text-decoration: none;
-  font-size: 90%;
-  color: #f1eeee;
-  display: block;
-  transition: 0.3s;
-  margin: 22px 7px; /* Espaciado vertical */
+    transition: 0.3s;
+    margin: 22px 7px; /* Espaciado vertical */
   }
   
   .sidebar a:hover {
@@ -114,7 +107,7 @@ body.inicio #main {
   .sidebar .closebtn {
     position: absolute;
     top: 0;
-    right: 25px;
+    right: 10%;
     font-size: 36px;
     margin-left: 50px;
   }
@@ -131,6 +124,9 @@ body.inicio #main {
     color: white;
     padding: 10px 15px;
     border: none;
+    position: absolute;
+    top: 0px;
+    right: 90%;
   }
   
   .openbtn:hover {
@@ -168,9 +164,21 @@ body.inicio #main {
   height: calc(var(--vh, 1vh) * 100); /* Altura dinámica para móviles */
   overflow: hidden;
 }
+.img-container2 {
+  position: relative;
+  width: 1006;
+  height: calc(var(--vh, 1vh) * 100); /* Altura dinámica para móviles */
+  overflow: hidden;
+}
+
 
 
 .img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Asegura que la imagen cubra todo el área sin deformarse */
+}
+.img-container2 img {
   width: 100%;
   height: 100%;
   object-fit: contain; /* Asegura que la imagen cubra todo el área sin deformarse */
